@@ -1,0 +1,18 @@
+#one {
+    grid-area: top;  
+    height: 100px; 
+    font-weight: bold;
+    margin-top: 2.5em;
+  }
+  
+  .blogcardbox {
+    border: 6px solid #fff;
+    border-radius: 3px;
+    box-shadow: 12px 12px #ffa29983;
+    background-color: #ffa199;
+    display: flex; 
+    flex-wrap: wrap;
+    width: calc(-40px 60%);
+    justify-content: center;
+    align-items: center;
+    }

@@ -1,0 +1,63 @@
+#three {
+    grid-area: bottomLeft;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  #ltext {
+    font: #fff;
+  }
+  
+    .blogcardbox3 {
+      border: 6px solid #fff;
+      border-radius: 3px;
+      box-shadow: 12px 12px #ffa29983;
+      background-color: #ffa199;
+      display: flex; 
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+      .box {
+        display: flex;
+        flex-wrap: wrap;  
+        border: 1.75px solid #fff;
+        border-radius: 3px;
+        margin: auto;
+      }
+  
+        .delivpic {
+          width: 190px;
+          position: center;
+          display: flex;
+          margin: 0;
+        }
+  
+        .bbutton {
+          border: 10px solid #000000;
+          border-radius: 3px;
+          background-color: black;
+          color: #fff;
+          margin: 20px;
+        }
+  
+        #ltext {
+          text-decoration: #fff;
+        }
+  
+      .box {
+        display: flex;
+        flex-wrap: wrap;  
+        border: 1.75px solid #fff;
+        border-radius: 3px;
+        margin: auto;
+      }
+      
+        .fa {
+          padding: 10px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          color: #fff
+        }

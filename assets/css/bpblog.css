@@ -1,0 +1,41 @@
+@import "bpfootblog.css";
+
+.body {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+  background-color: #ff4333;
+  text-align: justify;
+}
+
+  .container {
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 65em;
+    text-align: center;
+  }
+
+  .blogcardbox {
+    border: 6px solid #fff;
+    border-radius: 3px;
+    box-shadow: 12px 12px #ffa29983;
+    max-width: 800px;
+    margin-top: 35%;
+    margin: 0 20% 8% 20%;
+    background-color: #ffa199;
+    padding: 10px;
+  }
+
+    .h1 {
+      text-align: center;
+    }
+
+    .blogdate {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .blogpic {
+        max-width: 15em;
+        display: block;
+        margin: auto;
+      }

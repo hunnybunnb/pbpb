@@ -1,0 +1,84 @@
+@import "bpone.css";
+@import "bpthree.css";
+@import "bpfoot.css";
+
+.header {
+  justify-items: flex-start;
+  color: #fff;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ff4333; 
+}
+  
+  .container {
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 60em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75vh 1fr 80vh;
+    grid-gap: 1px;
+    grid-template-areas:
+    "top top top"
+    "bottomLeft bottomRight bottomRight"
+    "ft ft ft";
+    text-align: center;
+    padding: 0;
+    margin-left: 6em;
+}
+
+    #two {
+      grid-area: bottomRight;
+      font-size: 15px;
+      border: 6px solid #fff;
+      border-radius: 3px;
+      margin: auto 0 15px 15px;
+      background-color: #ffa199;
+      padding: 10px; 
+      max-width: 65em;  
+    }
+
+      .blogcardbox2 {
+        border: 6px solid #fff;
+        border-radius: 3px;
+        box-shadow: 12px 12px #ffa29983;
+        background-color: #ffa199;
+        display: flex; 
+        flex-wrap: wrap;
+        margin: auto;
+      }
+      
+      .box {
+        display: flex;
+        flex-wrap: wrap;  
+        border: 1.75px solid #fff;
+        border-radius: 3px;
+        padding: 20px;
+        margin: auto;
+      }
+
+        .h2ish {
+          position: center;
+        }
+
+        .blogpic {
+          width: 190px;
+          position: center;
+          max-width: 20em;
+          margin: auto;
+        }
+
+        .para { 
+          font-size: 16px;
+        }
+
+        .bbutton {
+            border: 10px solid #000000;
+            border-radius: 3px;
+            background-color: black;
+            color: #fff;
+            margin: 20px;
+          }
