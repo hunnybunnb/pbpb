@@ -39,3 +39,16 @@
         display: block;
         margin: auto;
       }
+
+      .fgcp {
+        font-size: 12px;
+        margin-left: 245px;
+        margin-top: 5px;
+      }
+
+      .bbutton {
+        border: 10px solid #000000;
+        border-radius: 3px;
+        background-color: black;
+        color: #fff;
+      }
